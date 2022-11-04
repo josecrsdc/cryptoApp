@@ -28,7 +28,7 @@ struct CoinRowView: View {
                 Spacer()
                 
                 VStack (alignment: .trailing){
-                    Text("$ \(decimalFormat(coin.priceUsd))")
+                    Text(decimalFormat(coin.priceUsd).priceFormatted(numOfDecimals: 4))
                         .foregroundColor(Color(Styles.colorOnSurface))
                     
                     HStack (spacing: 0){
@@ -42,7 +42,7 @@ struct CoinRowView: View {
             if showAllPrice {
                 HStack {
                     Spacer()
-                    Text("$ \(coin.priceUsd)")
+                    Text(coin.priceUsd.priceFormatted(numOfDecimals: 10))
                         .foregroundColor(Color(Styles.colorOnSurface))
                 }
             }
