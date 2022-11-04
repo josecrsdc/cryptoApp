@@ -11,7 +11,6 @@ import SwiftUI
 struct CoinResponse: Codable {
     let data: [Coin]
     let timestamp: Int
-    
 }
 
 struct Coin: Codable, Identifiable {
@@ -20,7 +19,6 @@ struct Coin: Codable, Identifiable {
     let rank: String
     let priceUsd: String
     let changePercent24Hr: String
-    
     
     var changePercentColor: Color {
         var color = Color.green

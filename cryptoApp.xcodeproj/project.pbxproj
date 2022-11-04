@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82061039291535CA00AE62B1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82061038291535CA00AE62B1 /* String+Extension.swift */; };
 		82D5C60028645D9D002F7AE5 /* cryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D5C5FF28645D9D002F7AE5 /* cryptoApp.swift */; };
 		82D5C60428645D9E002F7AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D5C60328645D9E002F7AE5 /* Assets.xcassets */; };
 		82D5C60728645D9E002F7AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D5C60628645D9E002F7AE5 /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82061038291535CA00AE62B1 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Extensions/String+Extension.swift"; sourceTree = "<group>"; };
 		8251D45A2865AB15004D3432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		82D5C5FC28645D9D002F7AE5 /* cryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D5C5FF28645D9D002F7AE5 /* cryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptoApp.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		82D5C6412864F451002F7AE5 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				82061038291535CA00AE62B1 /* String+Extension.swift */,
 				82D5C6422864F464002F7AE5 /* Utils.swift */,
 				82F4C13828672EB300C617B0 /* NavigationConfigurator.swift */,
 			);
@@ -356,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82D5C63E2864E60A002F7AE5 /* CoinRowView.swift in Sources */,
+				82061039291535CA00AE62B1 /* String+Extension.swift in Sources */,
 				82D5C6332864A621002F7AE5 /* RepositoryBase.swift in Sources */,
 				82D5C6432864F464002F7AE5 /* Utils.swift in Sources */,
 				82D5C63A2864AB4C002F7AE5 /* CoinListView.swift in Sources */,
